@@ -11,8 +11,8 @@ int main(void)
 	while (p < 10)
 	{
 		putchar(p + '0');
-	p++;
+		p++;
 	}
-		putchar('\n');
+	putchar('\n');
 	return (0);
 }

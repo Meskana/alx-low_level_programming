@@ -1,15 +1,15 @@
 #include <stdio.h>
 /**
- * main - Execution starts here
- *
- * Return: Returns 0
- */
+* main - Execution starts here
+*
+* Return: Returns 0
+*/
 int main(void)
 {
-	int r;
+	int p;
 
-	for (r = 0; r < 10; r++)
-		printf("%d", r);
-		putchar('\n');
+	for (p = 0; p < 10; p++)
+		printf("%d", p);
+	putchar('\n');
 	return (0);
 }
