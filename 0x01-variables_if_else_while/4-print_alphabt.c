@@ -10,10 +10,10 @@ int main(void)
 
 	while (chi <= 'z')
 	{
-	if (chi != 'q' && chi != 'e')
-		putchar(ch);
-	chi++;
+		if (chi != 'q' && chi != 'e')
+			putchar(ch);
+		chi++;
 	}
-		putchar('\n');
+	putchar('\n');
 	return (0);
 }
