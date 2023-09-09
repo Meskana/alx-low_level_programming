@@ -11,7 +11,7 @@ int main(void)
 	while (chi <= 'z')
 	{
 		if (chi != 'q' && chi != 'e')
-			putchar(ch);
+			putchar(chi);
 		chi++;
 	}
 	putchar('\n');
