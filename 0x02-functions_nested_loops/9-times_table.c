@@ -2,7 +2,7 @@
 /**
  * time_table - print the 9 time table, starting with 0
  */
-void time_table(void)
+void times_table(void)
 {
 	int t, m, b;
 
