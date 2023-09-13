@@ -8,7 +8,7 @@
  */
 int add(int a, int b)
 {
-	inc c;
+	int c;
 
 	c = a + b;
 
