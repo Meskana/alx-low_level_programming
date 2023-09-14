@@ -21,7 +21,7 @@ int main(void)
 		{
 			if (prime % div == 0)
 			{
-                                prime /= div;
+				prime /= div;
 			}
 		}
 	}
