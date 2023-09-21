@@ -1,11 +1,9 @@
 #include "main.h"
  /**
   * leet -  change vowel to numbers
-  * @leet: change vowel to number
   * @s: string
   * Return: string
   */
-
 char *leet(char *s)
 {
 	char r[] = "aeotlAEOTL";
