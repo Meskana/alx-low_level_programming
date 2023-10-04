@@ -30,4 +30,13 @@ char *str_concat(char *s1, char *s2)
 	}
 
 	result = malloc(sizeof(char) * (len_s1 + len_s2) + 1);
-}
+
+	if (result == NULL)
+	{
+		return (NULL);
+	}
+	for (i = 0; s1[i] != '\0'; i++)
+	{
+		result[i] = s1[i];
+	}
+
