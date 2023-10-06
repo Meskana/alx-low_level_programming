@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * str_concat - concatenates two strings
@@ -39,4 +40,5 @@ char *str_concat(char *s1, char *s2)
 	{
 		result[i] = s1[i];
 	}
+	return (result);
 }
